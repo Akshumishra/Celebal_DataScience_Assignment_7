@@ -11,12 +11,12 @@ st.write("This application predicts the likelihood of survival for a passenger o
 # Load trained model
 try:
     model = joblib.load('best_survival_model.pkl')
-    st.success("✅ Model loaded successfully!")
+    st.success("Model loaded successfully!")
 except FileNotFoundError:
-    st.error("❌ Model file 'best_survival_model.pkl' not found. Please ensure the model is trained and saved in the app directory.")
+    st.error("Model file 'best_survival_model.pkl' not found. Please ensure the model is trained and saved in the app directory.")
     model = None
 except Exception as e:
-    st.error(f"❌ Error loading model: {e}")
+    st.error(f"Error loading model: {e}")
     model = None
 
 if model:
@@ -53,15 +53,15 @@ if model:
 
         st.subheader("Prediction Result:")
         if prediction[0] == 1:
-            st.success("🛟 Passenger is likely to survive!")
+            st.success("Passenger is likely to survive!")
         else:
-            st.error("⚠️ Passenger is likely to not survive.")
+            st.error("Passenger is likely to not survive.")
 
         st.subheader("Prediction Probabilities:")
         survival_proba = prediction_proba[0][1]
         not_survival_proba = prediction_proba[0][0]
-        st.write(f"🪫 Probability of Not Surviving: `{not_survival_proba:.2f}`")
-        st.write(f"🟩 Probability of Surviving: `{survival_proba:.2f}`")
+        st.write(f"Probability of Not Surviving: `{not_survival_proba:.2f}`")
+        st.write(f"Probability of Surviving: `{survival_proba:.2f}`")
 
         # Probability bar chart
         fig = go.Figure(data=[
