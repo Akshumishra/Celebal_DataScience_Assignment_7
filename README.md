@@ -1,4 +1,4 @@
-# Titanic Survival Prediction App 🚢
+# Titanic Survival Prediction App
 
 This repository contains:
 * `Train_Model.py` for training a **Titanic survival prediction model** using a Random Forest on the Titanic dataset.
@@ -77,7 +77,7 @@ This will open the **Titanic Survival Prediction App** in your browser, where yo
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/Akshumishrs/Celebal_DataScience_Assignment_7/main/image.png" width="600"/>
+<img src="https://github.com/Akshumishra/Celebal_DataScience_Assignment_7/blob/main/image.png" width="600"/>
 
 
 ## Future Improvements
