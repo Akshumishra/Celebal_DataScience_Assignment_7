@@ -77,7 +77,7 @@ This will open the **Titanic Survival Prediction App** in your browser, where yo
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/yourusername/yourrepo/main/screenshot.png" width="600"/>
+<img src="https://raw.githubusercontent.com/Akshumishrs/Celebal_DataScience_Assignment_7/main/image.png" width="600"/>
 
 
 ## Future Improvements
